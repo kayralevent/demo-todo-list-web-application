@@ -1,4 +1,4 @@
-package com.huawei.demo.demo;
+package com.webapp.demo;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package com.huawei.demo.demo;
+package com.webapp.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

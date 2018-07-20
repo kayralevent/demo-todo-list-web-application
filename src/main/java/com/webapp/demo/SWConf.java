@@ -1,4 +1,4 @@
-package com.huawei.demo.demo;
+package com.webapp.demo;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

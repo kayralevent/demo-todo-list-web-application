@@ -1,4 +1,4 @@
-#//TODO List Web Application
+//TODO List Web Application
 
 This application has been developed with React and Spring and authenticated with Okta.
 
@@ -15,13 +15,19 @@ cd demo-todo-list-web-application
 This will get a copy of the project installed locally. To install all of its dependencies and start each app, follow the instructions below.
 
 To run the server; 
-- open project on eclipse
-- install wampserver login with root user (username: root, password:(empty)) and create another user (username: admin, password: admin) to match informations in application.properties.
-- run project on eclipse.
+- Open project on eclipse, to open project in eclipse, open eclipse and follow the instructions "File->Open Projects from File System". From the opening window click "Directory" and select path of the project's folder. And then click "Finish".
+- Install Wampserver to able to use MySQL. Wampserver has an easy-to-use web interface. Wampserver is using 3306 port. Login with root user (username: root, password:(empty)) and create another user (username: admin, password: admin) to match informations in application.properties. (Wampserver download link https://sourceforge.net/projects/wampserver/)
+- Run project on eclipse.
+- Install JDK, download the jdk for windows from this link, install and configure path settings. (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 To run the client, cd into the client folder and run:
 
+To install Node.js, download the installation file from this link and install. (https://nodejs.org/en/)
+
 npm install && npm start
+
+Now you are ready to go.
+
 
 Documentation
 
@@ -47,3 +53,6 @@ JpaRepository Interface for TodoItem entity table
 
 4. TodoListRepository
 JpaRepository Interface for TodoList entity table
+
+With recommendation of Ali Keskin, I used Swagger for testing rest apis.
+I need to get use to Java culture.
