@@ -1,4 +1,4 @@
-package com.huawei.demo.demo.models;
+package com.webapp.demo.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

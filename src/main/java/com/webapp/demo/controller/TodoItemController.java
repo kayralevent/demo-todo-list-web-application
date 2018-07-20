@@ -1,12 +1,12 @@
-package com.huawei.demo.demo.controller;
+package com.webapp.demo.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.huawei.demo.demo.models.TodoItem;
-import com.huawei.demo.demo.models.TodoItemRepository;
+import com.webapp.demo.models.TodoItem;
+import com.webapp.demo.models.TodoItemRepository;
 
 import java.util.Collection;
 import java.util.concurrent.atomic.AtomicLong;
